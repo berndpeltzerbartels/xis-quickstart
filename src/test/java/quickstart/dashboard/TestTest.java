@@ -18,7 +18,7 @@ class TestTest {
     @BeforeEach
     void setUp() {
         context = IntegrationTestContext.builder()
-                .withSingleton(Test.class)
+                .withSingleton(TestPage.class)
                 .build();
     }
 

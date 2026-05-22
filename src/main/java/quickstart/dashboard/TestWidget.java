@@ -1,8 +1,8 @@
 package quickstart.dashboard;
 
 
-import one.xis.Widget;
+import one.xis.Frontlet;
 
-@Widget
+@Frontlet
 class TestWidget {
 }
